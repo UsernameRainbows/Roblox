@@ -1,0 +1,5 @@
+local test = "Does Github detect this as lua code ?"
+local array = {1,2,3,4,5,6,7,8,9}
+
+for i,v in pairs(array) do
+print(test.." "..v)
